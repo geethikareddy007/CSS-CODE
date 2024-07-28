@@ -1,0 +1,52 @@
+#demo{
+    border: 2px solid;
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    position: absolute;
+    z-index: 2222222222222;
+}
+
+#demo1{
+    border: 2px solid;
+    height: 250px;
+    width: 250px;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 45px;
+    left: 80px;
+    z-index: 22222222222222222222;
+}
+
+#demo2{
+    border: 2px solid;
+    height: 250px;
+    width: 250px;
+    background-color: pink;
+    position: absolute;
+    top: 70px;
+    left: 150px;
+    z-index: 2222222222222;
+}
+
+h1:hover{
+    /* opacity: 0; */
+    /* opacity: 1; */ /*1 is default*/
+    opacity: 0.4;
+   
+}
+
+h1{
+    position: absolute;
+    top: 330px;
+    color: red;
+}
+
+img{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 350px;
+    z-index: 10;
+    /* z-index: -10; */
+}

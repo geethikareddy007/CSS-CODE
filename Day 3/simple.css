@@ -1,0 +1,21 @@
+#demo{
+    background-color: aqua;
+}
+
+.d1{
+    background-color: red;
+}
+
+h2,p,section{
+    background-color:green;
+    color:  chartreuse;
+}
+
+div{
+    background-color: aqua;
+    color: yellow;
+}
+
+*{
+    background-color: blueviolet;
+}

@@ -1,0 +1,37 @@
+h1::first-letter{
+    color: red;
+    font-size: 100px;
+}
+
+p::first-line{
+    background-color:black;
+   color: #fff;
+   text-decoration: line-through;
+
+}
+
+h2::before{
+    content:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzvHBVkBYNOl9r9IdRm7ZUujClHNqB0s7B3Q&s)
+}
+
+h2::after{
+    content:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQh-1vhfU2WumkvrWq-L7Xfaqi8ScgAxnNZhg&s)
+}
+
+li::marker{
+    /* color: red; */
+    content:"😂";
+}
+
+li  +   li::marker{
+    content:"😛"
+}
+
+li  +   li  +   li::marker{
+    content:"❤️"
+}
+
+h4::selection{
+background-color: black;
+color: white;
+}

@@ -1,0 +1,45 @@
+p{
+    color: red;
+    text-indent: 100px;
+    /* text-transform: uppercase; */ /*by default Uppercase */
+    /* text-transform: lowercase; */
+    /* text-transform: capitalize; */
+    /* text-decoration: underline; */
+    /* text-decoration: overline; */
+    /* text-decoration: line-through; */
+    text-shadow: 10px 10px 1px blue;
+    /* letter-spacing: 25px; */
+    /* word-spacing: 25px; */
+    /* line-height: 50px; */
+}
+h1{
+    text-align: center;
+    /* text-align: end; */
+    /* text-align: justify; */
+    /* text-align: left; */
+    /* text-align: right; */
+}
+a{
+    /* text-decoration: none; */
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    /* text-decoration-style: dotted; */
+    /* text-decoration-style: wavy; */
+    /* text-decoration-style: dashed; */
+    text-decoration-style: double;
+}
+h2{
+    border: 2px solid;
+    width: 100px;
+    /* height: 100px; */
+    overflow: hidden;
+    /* overflow: scroll; */
+    /* overflow: visible; */
+    /* overflow: auto; */   /*by default auto*/
+    resize: horizontal;   /* wnenever we using resize we have to put overflow as hidden, then only it will work properly */ 
+    /* resize: vertical; */
+    /* resize: both; */
+    text-wrap:nowrap;
+    /* text-overflow: ellipsis; */
+    text-overflow:clip;
+}

@@ -1,0 +1,25 @@
+ol{
+    border: 2px solid;
+    height: 80px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: fixed;
+    width: 100%; 
+    /* position:sticky; */
+    top: 0;
+    width: 100%; 
+}
+
+main{
+    border: 2px solid;
+    height: 90vh;
+    background-image: linear-gradient(red, green,crimson,blue);
+
+}

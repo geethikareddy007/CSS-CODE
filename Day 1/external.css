@@ -1,0 +1,7 @@
+@import url(./external2.css);
+
+h1{
+    background-color: red;
+    border: 2px solid;
+    text-align: center;
+}

@@ -1,0 +1,21 @@
+div{
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+    /* background-color: red; */
+    background-color: rgb(60, 60, 30);
+    background-color: rgba(182, 19, 54, 0.2);
+    background-color: hsl(40deg, 91%, 40%);
+    background-color: hsla(220, 100%, 85%, 0.3);
+    background-color: #7d0304;
+    background: linear-gradient(violet,indigo,blue,green,red,yellow,pink);
+    
+}
+
+
+section{
+    border: 2px solid;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to left, black,red,blue,yellow,indigo);
+} /* we can get all color values from color picker website or we can search https://htmlcolorcodes.com */

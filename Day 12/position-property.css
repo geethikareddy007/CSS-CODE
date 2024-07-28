@@ -1,0 +1,39 @@
+/* #demo{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    position: static;
+    top: 300px;  
+    left: 200px;
+} */
+
+#demo1{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    top: 290px;
+    left: 200px;
+    
+}
+
+#demo2{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    /* margin-top: 100px; */
+    /* margin-bottom: 1000px; */
+    /* top: 0; */
+    /* margin-top: -100px;     it should not take negative values, bec for doing responsive web-pages it will not possible ; */
+    position: absolute;
+    top: 100px;
+    left: 200px;
+   
+}
+#demo3{
+    border: 2px solid;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 100px;
+}

@@ -1,0 +1,19 @@
+#demo{
+    background-color: aqua;
+}
+
+.demo1{
+    background-color: blueviolet;
+}
+
+span{
+    background-color: red;
+}
+
+p,pre{
+    background-color: chartreuse;
+}
+
+*{
+    background-color:black;
+}
